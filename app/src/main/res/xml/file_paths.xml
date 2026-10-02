@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Para archivos en almacenamiento externo raíz -->
+    <external-path name="external_root" path="." />
+
+    <!-- Para archivos en Music/ -->
+    <external-path name="external_music" path="Music/" />
+
+    <!-- Para archivos en almacenamiento interno -->
+    <files-path name="internal_files" path="." />
+
+    <!-- Para caché -->
+    <cache-path name="cache" path="." />
+
+    <!-- Para caché externo -->
+    <external-cache-path name="external_cache" path="." />
+
+    <!-- IMPORTANTE: Para archivos en almacenamiento externo específico de la app -->
+    <external-files-path name="external_app_files" path="." />
+
+    <!-- Para Android 10+ (Scoped Storage) -->
+    <root-path name="root" path="." />
+</paths>
